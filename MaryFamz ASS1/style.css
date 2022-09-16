@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigbox{overflow: hidden;
+        width: 45%;
+        /* height: 300px; */
+        text-align: center;
+        padding: 5px 0;
+        margin: 50px auto;
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        transition: 0.3s;
+}
+p{font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+a{border-radius: 10px;
+  background-color: aqua;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding:10px;
+  display:block;
+}
+a:hover{
+    background-color: black;
+    color:red
+}
+.bigbox:hover{transform: scale(1.1);
+
+}
